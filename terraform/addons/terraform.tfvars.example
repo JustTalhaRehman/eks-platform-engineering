@@ -1,0 +1,12 @@
+# Copy to terraform.tfvars — never commit the real file.
+
+aws_region  = "us-east-1"
+environment = "production"
+domain_name = "example.com"
+
+argocd_chart_version             = "7.3.11"
+external_dns_chart_version       = "1.14.5"
+external_secrets_chart_version   = "0.9.20"
+cluster_autoscaler_chart_version = "9.36.0"
+keda_chart_version               = "2.14.2"
+aws_lbc_chart_version            = "1.8.1"
